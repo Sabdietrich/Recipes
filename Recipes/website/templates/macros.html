@@ -1,0 +1,7 @@
+{% macro enumerate(sequence) %}
+  {% set index = -1 %}
+  {% for item in sequence %}
+    {% set index = index + 1 %}
+    {{ (index, item) }}
+  {% endfor %}
+{% endmacro %}
