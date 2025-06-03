@@ -1,7 +1,7 @@
 # Easy Meal: Recipes Inspired by Graph Theory
 
 
-This project aims to provide a user-friendly application that enables users to search for recipes based on ingredients while providing a platform for local businesses to sell their ingredients. By using graph theory to
+This project aims to provide a user-friendly application that enables users to search for recipes based on ingredients while providing a platform for local businesses to sell their ingredients. By using graph theory to
 create a network of interconnected recipes, we hope to make it easier for users
 to discover and enjoy new recipes, and to expand their culinary horizons.
 
