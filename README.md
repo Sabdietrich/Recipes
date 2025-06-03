@@ -1,7 +1,7 @@
 # Easy Meal: Recipes Inspired by Graph Theory
 
 
-This project aims to provide a user-friendly application that enables users to search for recipes based on ingredients while providing a platform for local businesses to sell their ingredients. By using graph theory to
+This project aims to provide a user-friendly application that enables users to search for recipes based on ingredients while providing a platform for local businesses to sell their ingredients. By using graph theory to
 create a network of interconnected recipes, we hope to make it easier for users
 to discover and enjoy new recipes, and to expand their culinary horizons.
 
@@ -32,17 +32,17 @@ owner can put all the information about it, such as the name, place, time it
 stays open and all the products and prices available.
 
 After, the information is stored with SQLAlchemy. The primary goal of
-SQLAlchemy is to simplify the process of working with databases by providing a unified API that supports multiple database management systems with
+SQLAlchemy is to simplify the process of working with databases by providing a unified API that supports multiple database management systems with
 a consistent interface.
 
-Then, we can display the information the local markets passed into another page, so that the users are able to check where to buy the ingredients
+Then, we can display the information the local markets passed into another page, so that the users are able to check where to buy the ingredients
 in the Shop section of the website.
 
 For using the SQLAlchemy, we used Flask, which is a Framework for
 Python. Flask handles HTTP-related tasks and request routing, while SQLAlchemy
 is used for interacting with the database, providing the Object-Relational
 Mapping capabilities and simplifying database operations within the Flask
-application. This combination allows us to build robust and scalable web application with a clean separation between the web layer and the data layer.
+application. This combination allows us to build robust and scalable web application with a clean separation between the web layer and the data layer.
 
 Also, to make sure that all the information is secured after the local
 market create the account, we used a password hash. A password hash is
